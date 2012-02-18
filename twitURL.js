@@ -1,0 +1,1 @@
+javascript:d=document;%20s=d.getSelection();%20if(s%20!=%20'')s='"'+s+'"%20';%20t=d.title;%20h=location.href;%20location.href='http://twitter.com/home?status='+encodeURIComponent(s+t+'%20-%20'+h);
